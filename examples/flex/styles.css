@@ -1,0 +1,74 @@
+body{
+    background: rgb(85, 165, 85);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content{
+    width:95%;
+    margin:auto;
+    background: rgb(230, 219, 219, 0.8);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#main-header {
+    background: rgb(44, 79, 175);
+    color: rgb(9, 233, 195);
+    border-radius: 5px;
+    padding: 8px;
+}
+/*main nav*/ 
+#main-nav ul {
+    list-style-type: none; /*removes bullets*/
+    padding-left:0; 
+}
+
+#main-nav li {
+    border-bottom: 1px solid rgb(243, 4, 4);
+}
+
+#main-nav li:first-child{
+    border-top: 1px solid rgb(243, 4, 4);
+}
+
+#main-nav a {
+    color:rgb(191, 64, 64);
+    padding: 5px;
+    display:block;
+    text-decoration: none;/*removes underline*/
+}
+
+main-nav a:hover{
+    background: rgb(249, 248, 248);
+    color: rgb(23, 15, 255);
+}
+
+/*Typography*/
+h1{
+    text-align: center;
+}
+
+/*Larger devices*/ 
+@media only screen and (min-width: 768px){
+    body{
+        background: url(images/images.jpg);
+        background-size:cover; 
+}
+    #content{
+        width: 80%
+    }
+    .columns{
+        display:flex;
+    }
+    #main-nav li{
+        flex:1;
+    }
+    #main-nav li, #main-nav li:first-child{
+        border:none;
+    }
+    #main-nav a hover{
+        background: green;
+        color: white;
+        border-bottom: 1px solid rgb(243, 4, 4);
+    }
+}
+
