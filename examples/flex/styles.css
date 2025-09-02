@@ -66,6 +66,22 @@ main-nav a:hover{
     padding:5px; 
 }
 
+.squirrel {
+    background: green;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.squirrel .columns div{
+    width:30%;
+}
+
+/*images*/
+img{
+    max-width: 100%;
+}
+
 /*Typography*/
 h1{
     text-align: center;
