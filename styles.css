@@ -87,8 +87,15 @@ body {
   font-size: 0.9rem;
   color: #333;
 }
+/* project */ 
+.projects .assignment {
+  background: #acdbe8; 
+}
 
-/* Footer */
+.projects .assignment h3 {
+  color: #043444;
+}
+/* footer */
 #main-footer {
   text-align: auto;
   padding: 10px;
@@ -96,7 +103,7 @@ body {
   color: #333;
 }
 
-/* Larger devices */
+/* large devices */
 @media only screen and (min-width: 768px) {
   #content {
     width: 80%;
