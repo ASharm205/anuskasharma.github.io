@@ -1,5 +1,9 @@
+:root {
+    --primary-color: #3333ff;
+    --secondary-color: #ff3333;
+}
 body{
-    background: rgb(85, 165, 85);
+    background:var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
 }
 #content{
@@ -11,10 +15,19 @@ body{
 }
 
 #main-header {
-    background: rgb(44, 79, 175);
+    background:var(--primary-color);
     color: rgb(9, 233, 195);
     border-radius: 5px;
     padding: 8px;
+}
+
+#main-header img{
+    display: block;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 75px;
+    border-radius: 
 }
 /*columns*/
     .columns{
@@ -37,9 +50,13 @@ body{
     }
 
 /*main nav*/ 
-#main-nav ul {
+nav ul {
     list-style-type: none; /*removes bullets*/
     padding-left:0; 
+}
+
+nav li{
+    text-decoration: none;
 }
 
 #main-nav li {
@@ -54,12 +71,31 @@ body{
     color:rgb(191, 64, 64);
     padding: 5px;
     display:block;
-    text-decoration: none;/*removes underline*/
 }
 
-main-nav a:hover{
+#main-nav a:hover{
     background: rgb(249, 248, 248);
     color: rgb(23, 15, 255);
+}
+
+#login-nav{
+    position: absolute; 
+    top:5.5%;
+    right:5.5%;
+}
+
+#login-nav a{
+    color: rgb(21, 8, 8);
+    padding: 5px;
+    display: block; 
+}
+
+#login-nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+#login-nav li:not(:last-child)::after{
+    content:" | ";
 }
 
 #main-content section, #main-content aside{
@@ -76,7 +112,22 @@ main-nav a:hover{
 .squirrel .columns div{
     width:30%;
 }
+/* showcase */
+#showcase{
+    position:relative;
+}
 
+#showcase p{
+    background: rgb(0,0,0,0.7);
+    color: white;
+    padding: 10px;
+    width: fit-content;
+
+    position:absolute;
+    bottom:10px;
+    left:5px;
+
+}
 /*gallery*/
 #gallery {
     flex-wrap: wrap;
@@ -89,6 +140,7 @@ main-nav a:hover{
 }
 
 #gallery img {
+    padding: 5px;
     border-radius: 5px;
     margin-top: 5px;
 }
@@ -132,6 +184,9 @@ h1{
         background: green;
         color: white;
         border-bottom: 1px solid rgb(243, 4, 4);
+    }
+    #login-nav li:not(:last-child)::after{
+    content:" | ";
     }
     .hide-small{
         display:block;
