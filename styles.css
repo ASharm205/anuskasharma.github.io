@@ -52,8 +52,8 @@ body {
 .assignments {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
   justify-content: center;
+  gap: 40px;  
   margin-top: 20px;
 }
 
@@ -66,6 +66,7 @@ body {
   text-align: center;
   transition: transform 0.2s;
 }
+
 
 .assignment:hover {
   transform: translateY(-5px);
