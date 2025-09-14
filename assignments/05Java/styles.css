@@ -1,0 +1,60 @@
+/* layout adapted from w3schools flex example */
+/* base style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* container */
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+/* column */
+.column {
+  flex: 1;
+  min-width: 250px;
+  border: 1px solid #0df3e4;
+  padding: 15px;
+  background-color: #e0b4b4;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* heading */
+.column h2 {
+  margin-top: 0;
+  color: #2a5d67;
+}
+
+.hidden {
+  display: none;
+}
+/* this is where i stopped using w3schools */
+/* indentation */
+.indent1 { margin-left: 20px; }
+.indent2 { margin-left: 40px; }
+.indent3 { margin-left: 60px; }
+
+.column img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.column img:hover {
+  transform: scale(1.03);
+}
+
+/* responsive: 1 column on mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}

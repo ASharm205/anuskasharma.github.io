@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunny Times</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <h1>Sunny Times!</h1>
+
+  <div class="container">
+    <div class="column" id="col-lyrics">
+      <h2>Sunny Times:</h2>
+      <p class="description">
+        When the column is clicked, the following words (by the Beatles) will appear.
+      </p>
+      <div id="lyrics" class="hidden">
+        <p>Here comes the sun</p>
+        <p class="indent1">Sun</p>
+        <p class="indent2">Sun</p>
+        <p class="indent3">Sun</p>
+        <p>Here it comes</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <h2>Select a Color</h2>
+      <input type="color" id="color-picker">
+      <p id="color-text">Pick a color to change text.</p>
+      <p id="color-code"></p>
+    </div>
+
+    <div class="column">
+      <h2>Image Change:</h2>
+      <p>Click the image to change it!</p>
+      <img id="img-change" src="images/cloudy.png" alt="Cloudy Weather">
+
+    </div>
+  </div>
+</body>
+</html>
