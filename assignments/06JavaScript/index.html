@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- so my emojis show -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Assignment 6</h1>
+            <h2>If Statements</h2>
+
+            <div class="nav-links">
+                <button onclick="showSection('exercise1')" id="btn1" class="active">Exercise 1</button>
+                <button onclick="showSection('exercise2')" id="btn2">Exercise 2</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- plant -->
+            <div id="exercise1" class="section active">
+                <div class="plant-question">
+                    How many days has it been since watering your plant?
+                </div>
+
+                <div class="slider-container">
+                    <input type="range" min="1" max="12" value="3" class="slider" id="daySlider" 
+                           oninput="updatePlantAdvice(this.value)">
+                    <div class="slider-value" id="sliderValue">3 days</div>
+                </div>
+
+                <div class="plant-advice" id="plantAdvice"></div>
+            </div>
+
+            <!-- clock -->
+            <div id="exercise2" class="section">
+                <div class="clock-display">
+                    <div class="clock-title"> Digital Clock</div>
+                    <div class="time" id="digitalClock"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            @anuskasharma.com
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
