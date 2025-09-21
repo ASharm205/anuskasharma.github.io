@@ -30,3 +30,6 @@ document.getElementById("txt-emotion").onekeyup=(event)=>{
     document.getElementById("p-emotion").innerHTML=`you are feeling ${userInput}.`
     document.getElementById("img-emotion").classList.remove("hide");
 }
+
+/*counter*/ 
+let counter=0;
