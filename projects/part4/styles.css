@@ -246,6 +246,12 @@ img {
     font-style: italic;
 }
 
+.team-bio {
+    margin-top: 1%;
+    font-size: 90%;
+    color: var(--text-primary);
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
