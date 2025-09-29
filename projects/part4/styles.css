@@ -95,7 +95,7 @@ img {
     color: white;
 }
 
-/* hamburger menu from W3Schools (mobile)*/
+/* hamburger menu from W3Schools */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -138,7 +138,7 @@ img {
     display: block;
 }
 
-/* Hero section layout from W3Schools flexbox examples */
+/* hero section layout W3Schools */
 .hero-section {
     display: flex;
     align-items: center;
