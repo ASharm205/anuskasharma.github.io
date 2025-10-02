@@ -1,0 +1,10 @@
+[{
+    "name": "Nike",
+    "color": "red",
+    "size": 42,
+    "price": 100,
+    "description": "Running shoes",
+    "in_stock": true,
+    "id": 1,
+    "img": "nike.png"
+}]

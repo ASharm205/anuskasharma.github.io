@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 9 - Classes</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Assignment 9</h1>
+        <h2>Classes</h2>
+    </div>
+
+    <div class="gallery-container" id="galleryContainer"></div>
+
+    <div class="footer">
+        <p>All images from internet</p>
+        <p>@anuskasharma.com</p>
+    </div>
+
+    <div id="paintingModal" class="w3-modal">
+        <div class="modal-content w3-animate-zoom">
+            <div class="modal-header">
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+                <h2 id="modalTitle"></h2>
+                <p id="modalArtist"></p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image-container" id="modalImageContainer">
+                    <img id="modalImage" class="modal-image" src="" alt="">
+                    <div class="frame-label" id="frameLabel" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
