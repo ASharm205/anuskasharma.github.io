@@ -1,0 +1,98 @@
+[
+    {
+        "_id": 1,
+        "img_name": "images/BigM.png",
+        "client": "Major Retail Chain",
+        "project_title": "Retail Software Solution",
+        "rating": 3,
+        "service_type": "Software Development",
+        "testimonial": "So happy with my service from IOTTech! My software IOTTech built was amazing and the employees know how to work it!",
+        "results": "30% reduction in inventory costs, 95% accuracy in stock tracking",
+        "duration": "6 months",
+        "industry": "Retail"
+    },
+    {
+        "_id": 2,
+        "img_name": "images/Times.png",
+        "client": "All Natural Nails",
+        "project_title": "Management Consulting Success",
+        "rating": 4,
+        "service_type": "Management Consulting",
+        "testimonial": "Exceptional job! The management services helped my company reach their goals and maximize profits",
+        "results": "45% increase in monthly profits, 90% reduction in scheduling conflicts",
+        "duration": "3 months",
+        "industry": "Beauty & Wellness"
+    },
+    {
+        "_id": 3,
+        "img_name": "images/NYC.png",
+        "client": "Metro Tech Solutions",
+        "project_title": "Complete Digital Transformation",
+        "rating": 5,
+        "service_type": "Software & Management",
+        "testimonial": "Outstanding results from start to finish! IOTTech transformed our entire business process and increased our efficiency by 200%",
+        "results": "200% efficiency increase, zero security incidents, 150% revenue growth",
+        "duration": "12 months",
+        "industry": "Technology"
+    },
+    {
+        "_id": 4,
+        "img_name": "images/Software.png",
+        "client": "HealthFirst Clinic",
+        "project_title": "Medical Records Management System",
+        "rating": 5,
+        "service_type": "Software Development",
+        "testimonial": "The custom patient management system has revolutionized how we operate. Everything is organized and accessible!",
+        "results": "60% faster patient check-in, 100% HIPAA compliance, improved patient satisfaction",
+        "duration": "8 months",
+        "industry": "Healthcare"
+    },
+    {
+        "_id": 5,
+        "img_name": "images/Mangement.png",
+        "client": "GreenLeaf Restaurant Group",
+        "project_title": "Multi-Location Operations Management",
+        "rating": 4,
+        "service_type": "Management Consulting",
+        "testimonial": "IOTTech helped us streamline operations across 15 locations. Our costs are down and quality is up!",
+        "results": "25% cost reduction, 40% improvement in consistency, better employee retention",
+        "duration": "4 months",
+        "industry": "Food & Beverage"
+    },
+    {
+        "_id": 6,
+        "img_name": "images/jacob.png",
+        "client": "BuildRight Construction",
+        "project_title": "Project Management Platform",
+        "rating": 5,
+        "service_type": "Software Development",
+        "testimonial": "The project tracking software keeps all our sites coordinated. We've never been more organized!",
+        "results": "50% reduction in project delays, 35% better resource allocation, improved communication",
+        "duration": "5 months",
+        "industry": "Construction"
+    },
+    {
+        "_id": 7,
+        "img_name": "images/Girl.png",
+        "client": "EduTech Academy",
+        "project_title": "Online Learning Platform Development",
+        "rating": 5,
+        "service_type": "Software Development",
+        "testimonial": "Our online platform is intuitive and powerful. Student engagement has skyrocketed since launch!",
+        "results": "300% increase in online enrollment, 95% student satisfaction rate, 24/7 accessibility",
+        "duration": "10 months",
+        "industry": "Education"
+    },
+    {
+        "_id": 8,
+        "img_name": "images/Guy.png",
+        "client": "FitLife Gym Network",
+        "project_title": "Membership & Operations Management",
+        "rating": 4,
+        "service_type": "Management Consulting",
+        "testimonial": "The new management processes have transformed how we run our gyms. Member retention is at an all-time high!",
+        "results": "80% increase in member retention, 45% revenue growth, streamlined staff operations",
+        "duration": "6 months",
+        "industry": "Fitness & Recreation"
+    }
+]
