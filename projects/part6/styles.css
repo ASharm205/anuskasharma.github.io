@@ -364,17 +364,11 @@ img {
     color: var(--primary-color);
 }
 
-.map-placeholder {
+#map {
     width: 100%;
     height: 300px;
+    border: none;
     border-radius: 10px;
-    overflow: hidden;
-}
-
-.map-placeholder img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* service detail */
@@ -490,6 +484,8 @@ img {
 .submit-btn:hover {
     background-color: #2980b9;
 }
+
+
 
 /* responsive design from W3Schools & past Portia lectures */
 @media (max-width: 768px) {

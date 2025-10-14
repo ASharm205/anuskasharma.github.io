@@ -297,24 +297,30 @@
                 Reach out today to schedule a consultation and discover how we can help your business grow smarter and stronger.</p>
             <div class="contact-container">
                 <div class="contact-form">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" placeholder="Please enter">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" placeholder="Please enter">
-                        </div>
-                        <div class="form-group">
-                            <label for="service">Service:</label>
-                            <select id="service" name="service">
-                                <option value="software">Software</option>
-                                <option value="management">Management</option>
-                            </select>
-                        </div>
-                        <button type="submit" class="submit-btn">Submit</button>
-                    </form>
+                        <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="197d5ab0-4c88-4b15-ba3b-27ff057aa275">
+                        <p>
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" required>
+
+                        </p>
+                        <p>
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" required>
+
+                        </p>
+                        <p>
+                            <label for="message">Message: </label>
+                            <textarea name="message" required></textarea>
+                        </p>
+                            
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <p><button type="submit">Submit Form</button></p>
+
+                        <div id="contact-result"></div>
+                        </form>
                 </div>
                 <div class="contact-info">
                     <h3>Contact Information: </h3>
@@ -324,9 +330,7 @@
                 </div>
                     <div class="location-info">
                         <h3>Find us:</h3>
-                        <div class="map-placeholder">
-                            <img src="images/map.png" alt=" Map" />
-                        </div>
+                        <iframe id ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6175411575814!2d-73.98823932392753!3d40.748440471388086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1760457011438!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
